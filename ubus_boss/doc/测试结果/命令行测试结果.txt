@@ -1,0 +1,8 @@
+root@shine-genvict:~/zz_uhttpd_test# ./ubus list -v
+'ubus_boss' @674fc7b4
+        "say_hello":{"action":"String","para":"Table"}
+root@shine-genvict:~/zz_uhttpd_test# ./ubus call ubus_boss say_hello "{'action':'say'}"
+{
+        "Hi": "Welcome guy!"
+}
+root@shine-genvict:~/zz_uhttpd_test#

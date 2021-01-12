@@ -1,0 +1,6 @@
+1、ubus_boss     向ubusd总线注册一个ubus_boss对象，对象包含一个方法：say_hello;
+2、ubus_visitor  测试向ubus总线访问ubus_boss->say_hello "{'action':'say'}";
+
+
+其他说明：
+1、.gitkeep文件是为了上传空文件夹，工程编译需要用到
